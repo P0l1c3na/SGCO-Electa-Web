@@ -1,11 +1,10 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {TopbarComponent} from './layout/topbar/topbar.component';
-import { ContainerComponent } from './layout/container/container.component';
 
 
 @NgModule({
-  declarations: [TopbarComponent, ContainerComponent],
+  declarations: [TopbarComponent],
   exports: [
     TopbarComponent
   ],
